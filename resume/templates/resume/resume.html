@@ -22,7 +22,9 @@
                   </li>
                   {% endif %}
 
-                  <li class="website"><i class="fa fa-globe"></i><a href="{{ pinfo.site}}" target="_blank">{{ pinfo.sitename}}</a></li>
+                  <li class="website">
+                      <i class="fa fa-globe"></i><a href="{{ pinfo.site}}" target="_blank">{{ pinfo.sitename}}</a>
+                  </li>
                   {% if pinfo.linkedin %}
                   <li class="linkedin">                  
                     <i class="fab fa-linkedin"></i><a href="{{ pinfo.linkedin }}">{{ pinfo.linkedin|slice:"11:" }}</a>
