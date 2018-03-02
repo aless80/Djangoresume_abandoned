@@ -1,3 +1,5 @@
+I abandoned this project because the different templates I used have conflicting css files and templates. I decided that trying to manage them was not worth the effort and I am starting fresh with a new Djandoresume project. The model and view are ok, see below. Djandoresume uses and builds on parts of this project. 
+
 Credits to [ckelly](https://github.com/ckelly) on this repository: [django-resume](https://github.com/ckelly/django-resume) . 
 The project was not working on python 3 and Django 2.0.2 so I decided to rebuild it. I will probably work on it. 
 
